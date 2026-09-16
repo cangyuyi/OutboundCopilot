@@ -100,12 +100,27 @@ Write-Host "部署完成，请安装Chrome扩展：$projectDir\chrome-extension"
 ## 安装后验收标准
 
 部署完成后，按以下步骤验证：
-- [ ] Chrome扩展已加载，在`chrome://extensions/`中可见且启用
+- [ ] Chrome扩展已加载，在`chrome://extensions/`中可见且启用（版本 v1.0.1）
 - [ ] Hammerspoon/AHK已启动，菜单栏/托盘可见图标
 - [ ] 点击菜单栏图标可以正常开启，输入URL后状态变🟢
-- [ ] 打开飞书表格，点击单元格出现绿色"已复制"Toast
+- [ ] 打开飞书多维表格（bitable），点击单元格出现绿色"已复制"Toast
+- [ ] 打开飞书电子表格（sheets，Canvas渲染），点击单元格出现绿色"已复制"Toast
+- [ ] 打开飞书知识库嵌入表格（wiki ?sheet=），点击单元格出现绿色"已复制"Toast
+- [ ] 在电子表格中拖动框选多个单元格，出现"已复制 N 行"Toast，粘贴后为多行多列格式
 - [ ] 打开目标对话页，按`⌘/Ctrl+Shift+P`可以记录坐标
 - [ ] 复制单元格内容后，按快捷键可以正常跳转、粘贴
+
+---
+
+## Chrome 扩展权限说明
+
+v1.0.1 版本扩展权限：
+| 权限 | 用途 |
+|------|------|
+| `clipboardWrite` | 单击单元格时写入剪贴板 |
+| `clipboardRead` | 多选区域复制时读取剪贴板内容（v1.0.1 新增） |
+
+域名匹配：`feishu.cn`、`larksuite.com`、`feishu.com`、`larkoffice.com`、`bytedance.com`
 
 ---
 
