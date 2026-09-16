@@ -1,15 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Outbound Copilot - 飞书话术智能复制",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "外呼话术自动化测试工具 - 飞书表格单元格一键精准复制",
   "content_scripts": [{
-    "matches": ["*://*.feishu.cn/*", "*://*.larksuite.com/*", "*://*.feishu.com/*"],
+    "matches": ["*://*.feishu.cn/*", "*://*.larksuite.com/*", "*://*.feishu.com/*", "*://*.larkoffice.com/*", "*://*.bytedance.com/*"],
     "js": ["src/content.js"],
     "run_at": "document_idle",
-    "all_frames": true
+    "all_frames": true,
+    "match_about_blank": true
   }],
-  "permissions": ["clipboardWrite"],
+  "permissions": ["clipboardWrite", "clipboardRead"],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
