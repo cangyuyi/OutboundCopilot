@@ -81,8 +81,8 @@
 1. 确认Chrome浏览器是打开状态（不是最小化也不是关闭）
 2. 检查输入的URL关键词是否正确：
    - 打开目标网页，看地址栏里的域名是什么就填什么
-   - 例如页面URL是 `https://dialogue.example.com/xxx`，关键词填 `dialogue.example.com`
-   - 如果你填的是 `dialogue.example.com`，现在域名已经改成 `dialogue.example.com` 了，自然匹配不到
+   - 例如页面URL是 `https://dialogue.example.com/xxx`，关键词就填 `dialogue.example.com`
+   - 只填主域名通常匹配不到，关键词要带上子域名部分
 3. 手动在Chrome里打开一次目标页面，然后再试
 
 ### ❌ 打开了新标签页，但页面加载很慢，粘贴没成功

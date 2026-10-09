@@ -120,7 +120,7 @@ v1.0.1 版本扩展权限：
 | `clipboardWrite` | 单击单元格时写入剪贴板 |
 | `clipboardRead` | 多选区域复制时读取剪贴板内容（v1.0.1 新增） |
 
-域名匹配：`feishu.cn`、`larksuite.com`、`feishu.com`、`larkoffice.com`、`example.com`
+域名匹配：`feishu.cn`、`larksuite.com`、`feishu.com`、`larkoffice.com`
 
 ---
 

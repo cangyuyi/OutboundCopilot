@@ -14,7 +14,7 @@
 - ✅ 双引擎适配架构：DOM 引擎（多维表格 bitable）+ Canvas 引擎（电子表格 sheets）自动切换
 
 **配置变更**
-- ⚙️ 扩展 matches 域名增加 `larkoffice.com`、`example.com`
+- ⚙️ 扩展 matches 域名增加 `larkoffice.com`
 - ⚙️ 增加 `match_about_blank: true` 支持沙箱 iframe 注入
 - ⚙️ 新增 `clipboardRead` 权限（多选复制需要读取剪贴板）
 
@@ -48,7 +48,7 @@
 确定技术架构：Chrome扩展负责复制，Hammerspoon负责系统级热键和自动化，解决跨标签问题。
 
 ### v0.4 - 固定URL版本
-写死dialogue.example.com跳转地址，可以点击复制+侧键跳转，但只能用于固定网站。
+写死固定平台的跳转地址，可以点击复制+侧键跳转，但只能用于固定网站。
 
 ### v0.5 - URL可配置 + 坐标记忆
 增加启动弹窗输入URL，坐标按URL持久化存储，支持多平台切换。修复了AppleScript string.format %转义bug、URL域名更新导致匹配失败等问题。

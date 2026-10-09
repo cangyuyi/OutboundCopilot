@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "外呼话术自动化测试工具 - 飞书表格单元格一键精准复制",
   "content_scripts": [{
-    "matches": ["*://*.feishu.cn/*", "*://*.larksuite.com/*", "*://*.feishu.com/*", "*://*.larkoffice.com/*", "*://*.example.com/*"],
+    "matches": ["*://*.feishu.cn/*", "*://*.larksuite.com/*", "*://*.feishu.com/*", "*://*.larkoffice.com/*"],
     "js": ["src/content.js"],
     "run_at": "document_idle",
     "all_frames": true,
